@@ -171,7 +171,7 @@ h1 {
 
 .reiniciarYOtraRonda {
     margin-top: 10px;
-    color: white;
+    color: #ffffffbb;
     font-size: 30px;
     height: 40px;
     width: 70px;
@@ -187,12 +187,20 @@ h1 {
     background-color: #2d0095c9;
 }
 
+#botonReiniciar:active {
+    color: #ffffffff;
+}
+
 #botonOtraRonda{
     background-color: #00957885;
 }
 
 #botonOtraRonda:hover {
     background-color: #009578ff;
+}
+
+#botonOtraRonda:active {
+    color: #ffffffff;
 }
 
 /* TABLERO DEL JUEGO */
