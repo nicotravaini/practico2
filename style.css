@@ -160,7 +160,7 @@ h1 {
 
 #botonComenzar:active {
     color: #009578;
-    box-shadow: 0 0 0 15 #cccccc, 0 0 0 18 #2d0095, 0 0 0 17 #cccccc, 0 0 0 20 #2d0095;
+    border-color:  #2d0095;
 }
 
 #botonesYPantalla {
