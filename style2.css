@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'power_symbols';
+    src: url(./fonts/Unicode_IEC_symbol.woff) format('woff2'),
+         url(./fonts/Unicode_IEC_symbol.woff) format('woff');
+    font-weight: 50;
+    font-style: normal;
+}
+.power {
+    font-family: 'power_symbols';
+    font-size: large;
+}
+
+#video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-container {
+    position: relative;
+    background-color: rgba(240, 240, 240, 0.9);
+    border-radius: 12px;
+    padding: 20px;
+    height: 600px;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#textoBienvenida {
+    justify-content: center;
+    margin-top: 25%;
+}
+
+
+/* DIV DEL INPUT Y BOTON COMENZAR */ 
+#inputUsuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: 40px;
+}
+
+#nombreUsuario {
+    padding: 10px;
+    width: 60%;
+    border: 3px solid;
+    outline: none;
+    border-radius: 12px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container img {
+    max-width: 90vw;
+    max-height: 70vh;
+    height: 150px;
+    width: 150px;
+}
+
+#nombreIncorrecto {
+    display: none;
+    justify-content: center;
+    padding-top: 30px;
+    margin: auto;
+    height: 100px;
+    border: 3px outset white;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+/* BOTONES DEL JUEGO */
+#botonSonidoBack {
+    position: relative;
+    height: 40px;
+    width: 70px;
+    border: 2px solid;
+    border-radius: 30px;
+    align-items: start;
+    background-color: #2d009585;
+}
+#botonSonido {
+    background-color: #009578;
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.botonSonido-transition {
+    transition: 0.5s ease-in-out;
+    transform: translateX(30px);
+}
+
+.botonJugada {
+    display: none;
+    border: none;
+    border-radius: 50%;
+    appearance: none;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #00957885;
+}
+
+.piedraPapelTijera:hover{
+    animation: shake 1s;
+}
+
+@keyframes shake {
+
+
+    0%,
+    60%
+    {
+        transform: translateY(10px);
+    }
+
+    
+    30%,
+    90%
+   {
+        transform: translateY(-5px);
+    }
+}
+
+#botonComenzar {
+    display: inline-block;
+    font-family: 'power_symbols';
+    font-size: large;
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: #cccccc;
+    color: black;
+    text-align: center;
+    
+    transition: all .1s;
+}
+
+#botonComenzar:active {
+    color: #009578;
+    box-shadow: 0 0 0 15 #cccccc, 0 0 0 18 #2d0095, 0 0 0 17 #cccccc, 0 0 0 20 #2d0095;
+}
+
+#botonesYPantalla {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+
+.reiniciarYOtraRonda {
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    height: 40px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+#botonReiniciar {
+    background-color:#2d009585;
+}
+
+#botonReiniciar:hover {
+    background-color: #2d0095c9;
+}
+
+#botonOtraRonda{
+    background-color: #00957885;
+}
+
+#botonOtraRonda:hover {
+    background-color: #009578ff;
+}
+
+/* TABLERO DEL JUEGO */
+#boardGame {
+    padding-top: 30px;
+    margin: auto;
+    height: 100px;
+    border: 3px outset white;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+/* TABLA DE PUNTOS*/
+#gridBoard {
+    display: none;
+}
+
+.scoreBoard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+}
+
+.scoreboard-player,
+.scoreboard-puntaje {
+    padding: 10px;
+    text-align: center;
+}
+
+.scoreboard-player {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.player-one {
+    color: #009578;
+}
+
+.player-two {
+    color: #2d0095;
+}
+
+.scoreboard-puntaje {
+    font-size: 2em;
+}

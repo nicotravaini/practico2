@@ -1,0 +1,61 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PIEDRA PAPEL TIJERA</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="video">
+        <source src="./img/rockPaperScissor2.mp4" type="video/mp4">
+    </video>
+    <div id="botonSonidoBack">
+        <button id="botonSonido">&#128266</button>
+    </div>
+    <div class="main-container">
+        <main>
+            <h1>PIEDRA PAPEL TIJERA</h1>
+            <p id="textoBienvenida">Para comenzar a jugar ingresa tu nombre</p>
+            <!-- Entrada del nombre de usuario y boton de comenzar-->
+            <div id="inputUsuario">
+                <input id="nombreUsuario" type="text" placeholder="Ingresa tu nombre">
+                <button type="button" id="botonComenzar" class="botonComenzarfx">&#x23FB</button>  
+            </div>
+            <p id="nombreIncorrecto"></p>
+            <!--Botones de piedra papel y tijera-->
+            <div class="flex-container">
+                <button type="button" class="botonJugada" id="botonPiedra">
+                    <img class="jugada piedraPapelTijera" id="piedra" src="img/piedra3.png">
+                </button>
+                <button type="button" class="botonJugada" id="botonPapel">
+                    <img class="jugada piedraPapelTijera" id="papel" src="img/papel3.png">
+                </button>
+                <button type="button" class="botonJugada" id="botonTijera">
+                    <img class="jugada piedraPapelTijera" id="tijera" src="img/tijera3.png">
+                </button>
+            </div>
+            <!-- Tablero de puntaje-->
+            <div id="gridBoard">
+                <div class="scoreBoard" id="scoreBoard">
+                    <div class="scoreboard-player player-one" id="player-one">Usuario</div>
+                    <div class="scoreboard-player player-two">Computadora</div>
+                    <div class="scoreboard-puntaje puntaje-one" id="puntosUsuario">0</div>
+                    <div class="scoreboard-puntaje puntaje-two" id="puntosComputadora">0</div>
+                </div>
+            </div>
+            <div id="botonesYPantalla">
+                <p id="boardGame"></p>
+                <button type="button" class="botones botonReiniciar reiniciarYOtraRonda" id="botonReiniciar">x</button>
+                <button type="button" class="botones reiniciarYOtraRonda" id="botonOtraRonda">&#8635</button>
+            </div>
+        </main>
+        <script src="script2.js"></script>
+    </div>
+</body>
+
+</html>
