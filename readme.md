@@ -1,0 +1,13 @@
+[Image Button](https://www.scaler.com/topics/image-button-in-html/)
+[Scoreboard](https://www.youtube.com/watch?v=7BExOvUgOwA)
+[Nueva Linea](https://forum.freecodecamp.org/t/using-innerhtml-and-creating-a-new-line/152631/7)
+[Centrado vertical](https://www.dariobf.com/centrar-verticalmente-con-css-6-formas-diferentes-de-lograrlo/)
+[Deshabilitar botón con input vacío](https://flexiple.com/javascript/disable-button-javascript/#section4)
+[Activar botón con enter](https://www.techiedelight.com/es/trigger-button-click-on-enter-key-javascript/)
+[Ocultar y mostrar con JS](https://norfipc.com/inf/javascript-como-ocultar-mostrar-elementos-paginas-web.html)
+[Background video](https://css-tricks.com/full-page-background-video-styles/)
+[Grid y Flexbox juntos](https://wpengine.com/resources/combine-flexbox-and-css-grids-for-layouts-how-to/)
+[Botones redondos y con efectos](https://unused-css.com/blog/round-buttons/)
+[Boton con Slide](https://www.w3schools.com/howto/howto_js_toggle_class.asp)
+[Font especial para encendido](https://unicodepowersymbol.com/font/)
+[Confeti si gana el usuario](https://blog.logrocket.com/how-create-confetti-effect-css/) probablemente esto no llegue a hacerlo para la entrega.
