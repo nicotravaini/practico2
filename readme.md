@@ -8,13 +8,13 @@ El juego cuenta con dos partes principales, la primera donde se le pedirá al us
 Una vez ingresado el nombre, pasaremos a la segunda parte que es el juego en sí, donde el usuario podrá elegir entre las tres opciones (piedra, papel o tijera) apretando los "botones del juego" y competirá contra la computadora que también elegirá aleatoriamente entres las tres opciones, las elecciones se mostrarán en la "pantalla del juego" junto al resultado.
 Cada victoria se contabilizará en el "tablero de puntos" y el primero en llegar a tres victorias será el ganador.
 
-![pantalla del juego](/practico2/practico2/img/pantallaJuego.png)
+![pantalla del juego](/img/pantallaJuego.png)
 
 Una vez finalizado el juego, podemos utilizar el "botón otra ronda" para volver a jugar de nuevo o el "botón reiniciar juego" para volver a la primera pantalla.
 
 En todo momento podemos activar y desactivar el sonido del background con el botón que se encuentra en la esquina superior izquierda de la pantalla.
 
-![boton de sonido](/practico2/practico2/img/botonSonido.png)
+![boton de sonido](/img/botonSonido.png)
 
 
 ## Construido con 🛠️
